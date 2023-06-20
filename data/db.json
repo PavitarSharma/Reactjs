@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 1686977124870,
+      "username": "John Doe",
+      "email": "john123@gmail.com",
+      "password": "$2a$10$Vyv3eQCbzJjM5D2.3vhvduWaIwEuoFcThzhr.jWjs9syFmhRMHV4e"
+    },
+    {
+      "id": 1686979896034,
+      "username": "William Smith",
+      "email": "william@gmail.com",
+      "password": "$2a$10$uisriwAAJSyHbz/byyYzV.hz65UaFm0nbGM3nchrRJcPYs.DXb0MC"
+    },
+    {
+      "id": 1686979971144,
+      "username": "Pavitar Sharma",
+      "email": "pavitar@gmail.com",
+      "password": "$2a$10$SW65bDUXjoWDLiqNVE4um.wbl9gY0kdo8HLqWsho3QKxzWoF7qiXG"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 618249,
+      "task": "Learn coding",
+      "username": "John Doe",
+      "userId": 1686977124870,
+      "parentId": null,
+      "createdAt": 1686979546194
+    },
+    {
+      "id": 543844,
+      "task": "Write notion tasks",
+      "username": "John Doe",
+      "userId": 1686977124870,
+      "parentId": null,
+      "createdAt": 1686979775319
+    },
+    {
+      "id": 137064,
+      "task": "Waking with dog.",
+      "username": "William Smith",
+      "userId": 1686979896034,
+      "parentId": null,
+      "createdAt": 1686979921468
+    },
+    {
+      "id": 67173,
+      "task": "Write blog post on programming.",
+      "username": "Pavitar Sharma",
+      "userId": 1686979971144,
+      "parentId": null,
+      "createdAt": 1686979989731
+    },
+    {
+      "id": 284096,
+      "task": "Python",
+      "username": "Pavitar Sharma",
+      "userId": 1686979971144,
+      "parentId": 67173,
+      "createdAt": 1687274860460
+    },
+    {
+      "id": 16746,
+      "task": "Java",
+      "username": "Pavitar Sharma",
+      "userId": 1686979971144,
+      "parentId": 67173,
+      "createdAt": 1687274882383
+    },
+    {
+      "id": 285214,
+      "task": "Kotlon",
+      "username": "Pavitar Sharma",
+      "userId": 1686979971144,
+      "parentId": 67173,
+      "createdAt": 1687275133289
+    }
+  ]
+}

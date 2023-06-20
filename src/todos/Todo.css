@@ -1,0 +1,73 @@
+.todos {
+  max-width: 800px;
+  width: 100%;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 80px auto;
+  padding: 40px 20px;
+}
+
+.todo-title {
+  text-align: center;
+}
+
+.todo-form .form-control input {
+  height: 50px;
+  font-size: 18px;
+}
+
+.todo-form .form-control {
+  width: 90%;
+}
+
+.todo-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-button {
+  height: 50px;
+  width: 10%;
+  border: 1px solid rgb(159, 149, 149);
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: auto;
+}
+
+.todo {
+  margin: 20px 0;
+}
+.todo-body {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 10px 0;
+}
+
+
+.todo-body-task {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  color: #333;
+}
+
+.todo-button-action {
+    background: none;
+    outline: none;
+    font-size: 14px;
+    border: 0.5px solid #999;
+    padding: 4px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.nested-todo {
+    padding: 10px;
+    padding-bottom: 0;
+}
